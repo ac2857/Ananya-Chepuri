@@ -408,13 +408,14 @@ main {
   padding-left: 1rem;
   position: relative;
   line-height: 1.5;
+  color: #ffffff;
 }
 
 .custom-bullets li::before {
   content: "•";
   position: absolute;
   left: 0;
-  color: #00ffd5; /* Stylish color */
+  color: #ffffff; /* Stylish color */
   font-size: 1.2rem;
 }
 
