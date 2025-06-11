@@ -403,6 +403,21 @@ main {
   gap: 16px;
 }
 
+.custom-bullets li {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.custom-bullets li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #00ffd5; /* Stylish color */
+  font-size: 1.2rem;
+}
+
 .contact-item {
   min-width: 100%;
   display: flex;
